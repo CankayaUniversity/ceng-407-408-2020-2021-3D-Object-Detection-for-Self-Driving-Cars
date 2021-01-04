@@ -1,6 +1,6 @@
 # 3D Object Detection for Self-Driving Cars
 
-- [Project Report](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/blob/main/3DODSDC_Project_Report.pdf)
+- [Project Report](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/blob/main/3DODSD_Project_Report.pdf)
 
 Available pages on wiki:
 - [Project Work Plan](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/wiki/Project-Work-Plan)
