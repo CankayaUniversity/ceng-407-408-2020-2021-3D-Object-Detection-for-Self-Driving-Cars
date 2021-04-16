@@ -9,6 +9,7 @@ Available pages on wiki:
 - [Software Requirements Specification(SRS)](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/wiki/Software-Requirement-Specification(SRS))
 - [Project Webpage](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/wiki/Project-Webpage)
 - [Software Design Description(SDD)](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/wiki/Software-Design-Description(SDD))
+- [Test Plan](https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/wiki/Test-Plan)
 
 
 
