@@ -83,16 +83,16 @@ RUN tar xzvf boost_1_68_0.tar.gz
 RUN cp -r ./boost_1_68_0/boost /usr/include
 RUN rm -rf ./boost_1_68_0
 RUN rm -rf ./boost_1_68_0.tar.gz
-RUN git clone https://github.com/traveller59/second.pytorch.git --depth 10
-RUN git clone https://github.com/traveller59/SparseConvNet.git --depth 10
+RUN git clone https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars.git --depth 10
+RUN git clone https://github.com/hankeceli/spconv.git --depth 10
 RUN cd ./SparseConvNet && python setup.py install && cd .. && rm -rf SparseConvNet
 ENV NUMBAPRO_CUDA_DRIVER=/usr/lib/x86_64-linux-gnu/libcuda.so
 ENV NUMBAPRO_NVVM=/usr/local/cuda/nvvm/lib64/libnvvm.so
 ENV NUMBAPRO_LIBDEVICE=/usr/local/cuda/nvvm/libdevice
-ENV PYTHONPATH=/root/second.pytorch
+ENV PYTHONPATH=/root/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars
 
 VOLUME ["/root/data"]
 VOLUME ["/root/model"]
-WORKDIR /root/second.pytorch/second
+WORKDIR /root/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/second
 
 ENTRYPOINT ["fish"]
