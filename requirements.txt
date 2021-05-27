@@ -1,0 +1,12 @@
+tensorboard
+shapely
+fire
+pybind11
+protobuf
+scikit-image
+numba
+pillow
+wheel
+psutil
+nuscenes-devkit==1.0.2
+lyft-dataset-sdk==0.0.8
