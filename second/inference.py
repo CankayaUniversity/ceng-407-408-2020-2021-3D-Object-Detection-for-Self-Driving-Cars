@@ -153,7 +153,7 @@ class Second3DDector(object):
 if __name__ == "__main__":
 
     config_p = 'second/configs/nuscenes/all.fhd.config'
-    model_p = '/home/ags/second_test/all_fhd/voxelnet-29369.tckpt'
+    model_p = '/home/keceli/second_test/all_fhd/voxelnet-29369.tckpt'
     lidar_file = '/media/ags/DATA/CODE/kaggle/lyft-3d-object-detection/data/lyft/test/'
     lidar_file += 'lidar/host-a004_lidar1_1231810077401389686.bin'
     detector = Second3DDector(config_p, model_p)
