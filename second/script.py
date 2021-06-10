@@ -24,7 +24,7 @@ def train_multi_rpn_layer_num():
 
 def eval_multi_threshold():
     config_path = "./configs/nuscenes/all.fhd.config"
-    ckpt_name = "/home/ags/second_test/all_fhd_2/" # don't forget to change this.
+    ckpt_name = "/home/keceli/second_test/all_fhd_2/" # don't forget to change this.
     #assert "/path/to/your" not in ckpt_name
     config = pipeline_pb2.TrainEvalPipelineConfig()
     with open(config_path, "r") as f:
